@@ -5,7 +5,8 @@
 }
 
 .parent-container {
-  background-color: #6f4e37;
+  /* background-color: #6f4e37; */
+  background: linear-gradient(to left, #c080fb, #ff82e6);
   padding-bottom: 20px;
 }
 
@@ -41,7 +42,7 @@ button {
   width: 200px;
   height: 70px;
   font-size: 20px;
-  background-color: #6f4e37;
+  background-color: #ff1087;
   text-decoration: none;
   cursor: pointer;
 }
@@ -82,7 +83,7 @@ button {
 .btn {
   height: 50px;
   width: 50px;
-  background-color: #664732;
+  background-color: #ff1087;
   color: #fcfcfc;
   cursor: pointer;
   border: none;
@@ -90,7 +91,7 @@ button {
 }
 
 .active {
-  background-color: #805f4a;
+  background-color: #4cbae7;
   height: 50px;
   width: 50px;
   color: white;
@@ -102,7 +103,7 @@ button {
 button:disabled,
 button[disabled] {
   border: none;
-  background-color: #805f4a;
+  background-color: #4cbae7;
   color: white;
   cursor: default;
 }

@@ -11,7 +11,7 @@ const Home = () => {
       <h1 className='intro-text'>Welcome!</h1>
       <p className='copy-text'>SamCares Technolgy Solutions, a home of solutions. Click the button below to meet our amazing users all over the world</p>
       <Link to="/apicall">
-        <button className='view-users-button'>Click Me</button>
+        <button className='view-users-button'>Explore</button>
       </Link>
     </section>
   );
@@ -61,13 +61,13 @@ function ApiCall() {
       <div className='pages'>
         <button className='btn' onClick={() => Pagination(page - 1)} disabled={page === 1}>prev</button>
         <button className={`${page === 1 ? 'active' : 'btn'}`} onClick={() => Pagination(1)} disabled={page === 1}>1</button>
-        <button className={`${page === 2 ? 'active' : 'btn'}`} onClick={() => Pagination(1)} disabled={page === 2}>1</button>
-        <button className={`${page === 3 ? 'active' : 'btn'}`} onClick={() => Pagination(1)} disabled={page === 3}>1</button>
-        <button className={`${page === 4 ? 'active' : 'btn'}`} onClick={() => Pagination(1)} disabled={page === 4}>1</button>
-        <button className={`${page === 5 ? 'active' : 'btn'}`} onClick={() => Pagination(1)} disabled={page === 5}>1</button>
-        <button className={`${page === 6 ? 'active' : 'btn'}`} onClick={() => Pagination(1)} disabled={page === 6}>1</button>
-        <button className={`${page === 7 ? 'active' : 'btn'}`} onClick={() => Pagination(1)} disabled={page === 7}>1</button>
-        <button className={`${page === 8 ? 'active' : 'btn'}`} onClick={() => Pagination(1)} disabled={page === 8}>1</button>
+        <button className={`${page === 2 ? 'active' : 'btn'}`} onClick={() => Pagination(2)} disabled={page === 2}>2</button>
+        <button className={`${page === 3 ? 'active' : 'btn'}`} onClick={() => Pagination(3)} disabled={page === 3}>3</button>
+        <button className={`${page === 4 ? 'active' : 'btn'}`} onClick={() => Pagination(4)} disabled={page === 4}>4</button>
+        <button className={`${page === 5 ? 'active' : 'btn'}`} onClick={() => Pagination(5)} disabled={page === 5}>5</button>
+        <button className={`${page === 6 ? 'active' : 'btn'}`} onClick={() => Pagination(6)} disabled={page === 6}>6</button>
+        <button className={`${page === 7 ? 'active' : 'btn'}`} onClick={() => Pagination(7)} disabled={page === 7}>7</button>
+        <button className={`${page === 8 ? 'active' : 'btn'}`} onClick={() => Pagination(8)} disabled={page === 8}>8</button>
         <button className='btn' onClick={() => Pagination(page + 1)} disabled={page === 8}>next</button>
       </div>
     </section>
